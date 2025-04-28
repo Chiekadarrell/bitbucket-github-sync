@@ -6,6 +6,6 @@
         clone:
           enabled: false
         script:
-          - git clone --mirror https://x-token-auth:$BITBUCKET_VARIABLE@bitbucket.org/chiekdadarrell/bitbucket-github-sync.git
+          - git clone --mirror https://x-token-auth:$BITBUCKET_VARIABLE@bitbucket.org/chiekadarrell/bitbucket-github-sync.git
           - cd bitbucket-github-sync.git
           - git push --mirror https://x-token-auth:$GITHUB_VARIABLE@github.com/Chiekadarrell/bitbucket-github-sync.git
